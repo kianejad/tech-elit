@@ -1,0 +1,28 @@
+@import "fonts";
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: var(--font-iranSansDn);
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--white-color);
+  background-color: var(--black-color);
+  direction: rtl;
+  text-align: right;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container{
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
